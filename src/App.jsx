@@ -1,6 +1,5 @@
 import React, {useState , useEffect} from 'react'
 import Hero from './component/Hero'
-import Footer from './component/Footer'
 import Products from './component/Products'
 
 const App = () => {
@@ -11,7 +10,6 @@ const App = () => {
     <>
       <Hero searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       <Products searchTerm={searchTerm}/>
-      <Footer/>
     </>
   )
 }
